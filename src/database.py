@@ -3,7 +3,6 @@ from config import DB_CONFIG
 
 def create_database():
     '''СОЗДАНИЕ БАЗЫ ДАННЫХ ЛОКАЛЬНО'''
-    # conn = psycopg2.connect(dbname='postgres', **{k: v for k, v in DB_CONFIG.items() if k != 'dbname'}) # это магия
     conn = psycopg2.connect(
         dbname='postgres',
         user=DB_CONFIG['user'],

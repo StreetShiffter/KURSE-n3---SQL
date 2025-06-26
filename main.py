@@ -73,17 +73,6 @@ def user_interface(text):
             return
 
         print(f"✅ Найдено {len(load)} уникальных работодателей")
-        #
-        # employers_set = [vac['employer'] for vac in load if vac.get('employer')]
-        # insert_employers(employers_set)
-        #
-        # print("💼 Сохранение вакансий...")
-        # if not filter:
-        #     print("❌ Нет вакансий для сохранения")
-        #     return
-        #
-        # print(f"✅ Найдено {len(filter)} вакансий")
-        # insert_vacancies(filter)
         insert_employers(filter)
 
         print("💼 Сохранение вакансий...")

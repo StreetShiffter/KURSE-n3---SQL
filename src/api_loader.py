@@ -1,6 +1,5 @@
 import requests
 from config import USER_AGENT
-import re
 from pprint import pprint
 import json
 import os
@@ -75,7 +74,7 @@ def loader_company(id_company):
 
     return all_vacancies
 
-'''Шаг 3: Определяем вакансии по топ 10 ID компании из списка  - ✅ '''
+'''Шаг 3: Определяем вакансии по топ 10 ID компании из списка  - ✅????? '''
 def company_top(id_list):
     '''Получение вакансий из списка ID компаний'''
     all_vacancies = []
@@ -124,17 +123,19 @@ employer_id_top = [
             '80',       # Альфа-Банк ✅
             '3443',     # дом.рф ✅
             '592442',   # Mail.ru Group ✅
-            '4996233',  # Роснефть
+            '4996233',  # Роснефть ✅
             '11454714', # Магнит ✅
             '9777667',  # Росатом ✅
         ]
 
 
 if __name__ == '__main__':
-    user_input = input("Введите список компании через запятую или одну: ").lower()
-    step1=loader_vacancy(user_input)
-    step2 = loader_company(step1)
-    # step3=company_top(employer_id_top)
+    # user_input = input("Введите список компании через запятую или одну: ").lower()
+    # step1=loader_vacancy(user_input)
+    # step2 = loader_company(step1)
+
+    step3=company_top(employer_id_top)
+
     # for i in employer_id_top:
     #     step4 = get_company_name(i)
     #
