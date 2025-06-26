@@ -1,0 +1,19 @@
+[project]
+name = "kurs-3-sql-bd"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "StreetShiffter",email = "agwzdushaz@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "requests (>=2.32.4,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+psycopg2 = "^2.9"

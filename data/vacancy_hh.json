@@ -1,0 +1,386 @@
+[
+    {
+        "id": "121960441",
+        "premium": false,
+        "name": "Руководитель отдела сетевой инфраструктуры",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Складочная улица",
+            "building": "3с1",
+            "lat": 55.8061,
+            "lng": 37.590794,
+            "description": null,
+            "raw": "Москва, Складочная улица, 3с1",
+            "metro": {
+                "station_name": "Дмитровская",
+                "line_name": "Серпуховско-Тимирязевская",
+                "station_id": "9.35",
+                "line_id": "9",
+                "lat": 55.808056,
+                "lng": 37.581734
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Дмитровская",
+                    "line_name": "Серпуховско-Тимирязевская",
+                    "station_id": "9.35",
+                    "line_id": "9",
+                    "lat": 55.808056,
+                    "lng": 37.581734
+                }
+            ],
+            "id": "6674886"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-23T14:58:49+0300",
+        "created_at": "2025-06-23T14:58:49+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121960441",
+        "show_logo_in_search": null,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/121960441?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/121960441",
+        "relations": [],
+        "employer": {
+            "id": "4592004",
+            "name": "Beeline cloud (ООО ДатаФорт)",
+            "url": "https://api.hh.ru/employers/4592004",
+            "alternate_url": "https://hh.ru/employer/4592004",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1100747.png",
+                "90": "https://img.hhcdn.ru/employer-logo/6023601.png",
+                "240": "https://img.hhcdn.ru/employer-logo/6023602.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4592004",
+            "accredited_it_employer": false,
+            "employer_rating": {
+                "total_rating": "4.2",
+                "reviews_count": 9
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Опыт работы в аналогичной должности не менее 3-х лет. Знание принципов архитектуры и опыт эксплуатации IP сетей. ",
+            "responsibility": "Руководство отделом, постановка задач и контроль их исполнения в рамках установленного в компании SLA. Администрирование территориально распределенной сети компании. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "112",
+                "name": "Сетевой инженер"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "121343749",
+        "premium": false,
+        "name": "Юрист",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Складочная улица",
+            "building": "3с1",
+            "lat": 55.8061,
+            "lng": 37.590794,
+            "description": null,
+            "raw": "Москва, Складочная улица, 3с1",
+            "metro": {
+                "station_name": "Дмитровская",
+                "line_name": "Серпуховско-Тимирязевская",
+                "station_id": "9.35",
+                "line_id": "9",
+                "lat": 55.808056,
+                "lng": 37.581734
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Дмитровская",
+                    "line_name": "Серпуховско-Тимирязевская",
+                    "station_id": "9.35",
+                    "line_id": "9",
+                    "lat": 55.808056,
+                    "lng": 37.581734
+                }
+            ],
+            "id": "6674886"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-04T14:58:35+0300",
+        "created_at": "2025-06-04T14:58:35+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121343749",
+        "show_logo_in_search": null,
+        "show_contacts": true,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/121343749?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/121343749",
+        "relations": [],
+        "employer": {
+            "id": "4592004",
+            "name": "Beeline cloud (ООО ДатаФорт)",
+            "url": "https://api.hh.ru/employers/4592004",
+            "alternate_url": "https://hh.ru/employer/4592004",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1100747.png",
+                "90": "https://img.hhcdn.ru/employer-logo/6023601.png",
+                "240": "https://img.hhcdn.ru/employer-logo/6023602.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4592004",
+            "accredited_it_employer": false,
+            "employer_rating": {
+                "total_rating": "4.2",
+                "reviews_count": 9
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Высшее юридическое образование. Опыт работы в IT/ IP области, преимущество – опыт работы в аккредитованной IT компании, в телекоме, с облачными...",
+            "responsibility": "Договорная работа: составление, согласование договоров, оценка рисков, понимание бизнес-логики, разработка и доработка внутренних шаблонов. Юридическое сопровождение запуска новых и..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "146",
+                "name": "Юрист"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "121092383",
+        "premium": false,
+        "name": "Архитектор по информационной безопасности",
+        "department": null,
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Складочная улица",
+            "building": "3с1",
+            "lat": 55.8061,
+            "lng": 37.590794,
+            "description": null,
+            "raw": "Москва, Складочная улица, 3с1",
+            "metro": {
+                "station_name": "Дмитровская",
+                "line_name": "Серпуховско-Тимирязевская",
+                "station_id": "9.35",
+                "line_id": "9",
+                "lat": 55.808056,
+                "lng": 37.581734
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Дмитровская",
+                    "line_name": "Серпуховско-Тимирязевская",
+                    "station_id": "9.35",
+                    "line_id": "9",
+                    "lat": 55.808056,
+                    "lng": 37.581734
+                }
+            ],
+            "id": "6674886"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-05-28T16:03:15+0300",
+        "created_at": "2025-05-28T16:03:15+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121092383",
+        "show_logo_in_search": null,
+        "show_contacts": true,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/121092383?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/121092383",
+        "relations": [],
+        "employer": {
+            "id": "4592004",
+            "name": "Beeline cloud (ООО ДатаФорт)",
+            "url": "https://api.hh.ru/employers/4592004",
+            "alternate_url": "https://hh.ru/employer/4592004",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1100747.png",
+                "90": "https://img.hhcdn.ru/employer-logo/6023601.png",
+                "240": "https://img.hhcdn.ru/employer-logo/6023602.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=4592004",
+            "accredited_it_employer": false,
+            "employer_rating": {
+                "total_rating": "4.2",
+                "reviews_count": 9
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Высшее образование в области ИТ/ИБ. Понимание принципов создания систем защиты информации (облачных инфраструктур, облачных платформ, ГИС, ИСПДн, КИИ и...",
+            "responsibility": "Участие в проектах в роли архитектора ИБ. Выработка мер ИБ по нейтрализации угроз информационной безопасности. Анализ информационной безопасности архитектуры информационных..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "116",
+                "name": "Специалист по информационной безопасности"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    }
+]
