@@ -1,9 +1,9 @@
 import psycopg2
-from config import DB_CONFIG
+from config import config
 
 class DBManager:
     def __init__(self):
-        self.conn = psycopg2.connect(**DB_CONFIG)
+        self.conn = psycopg2.connect(**config())
 
     def get_companies_and_vacancies_count(self):
         '''Получает список всех компаний и количество вакансий у каждой компании'''

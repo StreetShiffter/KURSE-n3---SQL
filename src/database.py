@@ -1,22 +1,26 @@
 import psycopg2
-from config import DB_CONFIG
+from config import config
+
+
 
 def create_database():
     '''СОЗДАНИЕ БАЗЫ ДАННЫХ ЛОКАЛЬНО'''
-    conn = psycopg2.connect(
-        dbname='postgres',
-        user=DB_CONFIG['user'],
-        password=DB_CONFIG['password'],
-        host=DB_CONFIG['host'],
-        port=DB_CONFIG.get('port', 5432) # берем порт из DB_CONFIG, если нет, то берем 5432
-    )
+    # conn = psycopg2.connect(**config())
+    # conn.autocommit = True
+    # cur = conn.cursor()
+    # Получаем параметры подключения (включая dbname)
+    params = config()
+    db_name = params.get("dbname")  # Берём имя БД из конфига
+
+    # Подключаемся к Postgres без указания БД (используем 'postgres' или 'template1')
+    conn = psycopg2.connect(**{k: v for k, v in params.items() if k != "dbname"})
     conn.autocommit = True
     cur = conn.cursor()
     try:
-        cur.execute("CREATE DATABASE hh_vacancies")
-        print("База данных hh_vacancies создана.")
+        cur.execute(f"CREATE DATABASE {db_name}")
+        print(f'База данных {db_name} создана.')
     except psycopg2.errors.DuplicateDatabase:               # Ошибка если БД создана
-        print("База данных hh_vacancies уже существует.")
+        print(f"База данных {db_name} уже существует.")
     finally:
         cur.close()
         conn.close()
@@ -47,7 +51,7 @@ def create_tables():
         )
         """
     )
-    conn = psycopg2.connect(**DB_CONFIG)
+    conn = psycopg2.connect(**config())
     cur = conn.cursor()
     try:
         for command in commands:

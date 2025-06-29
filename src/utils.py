@@ -1,6 +1,6 @@
 import psycopg2
 import requests
-from config import DB_CONFIG, USER_AGENT
+from config import config
 
 def process_vacancy(vacancy):
     '''Представление вакансий по конкретным полям'''
@@ -23,7 +23,7 @@ def insert_employers(vacancies):
     Добавляет работодателей в таблицу employers на основе списка вакансий.
     Берёт данные из поля 'employer' каждой вакансии.
     """
-    conn = psycopg2.connect(**DB_CONFIG)
+    conn = psycopg2.connect(**config())
     cur = conn.cursor()
 
     for vac in vacancies:
@@ -54,7 +54,7 @@ def insert_employers(vacancies):
 
 def insert_vacancies(vacancies):
     '''Добавляет вакансии работодателей в таблицу vacancies на основе списка работодателей.'''
-    conn = psycopg2.connect(**DB_CONFIG)
+    conn = psycopg2.connect(**config())
     cur = conn.cursor()
 
     for vac in vacancies:# Перебор каждого работодателя
@@ -90,6 +90,23 @@ def insert_vacancies(vacancies):
         except Exception as e:
             print(f"Ошибка при обработке вакансии {vac.get('id')}: {e}")
 
+    conn.commit()
+    cur.close()
+    conn.close()
+
+def clear_employers_table():
+    conn = psycopg2.connect(**config())
+    cur = conn.cursor()
+    cur.execute("TRUNCATE TABLE employers CASCADE")
+    conn.commit()
+    cur.close()
+    conn.close()
+
+
+def clear_vacancies_table():
+    conn = psycopg2.connect(**config())
+    cur = conn.cursor()
+    cur.execute("TRUNCATE TABLE vacancies")
     conn.commit()
     cur.close()
     conn.close()

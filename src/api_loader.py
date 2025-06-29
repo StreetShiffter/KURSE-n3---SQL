@@ -135,6 +135,7 @@ if __name__ == '__main__':
     # step2 = loader_company(step1)
 
     step3=company_top(employer_id_top)
+    pprint(step3)
 
     # for i in employer_id_top:
     #     step4 = get_company_name(i)
