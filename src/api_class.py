@@ -1,17 +1,18 @@
 import json
-import requests
-from typing import Any, Dict, List, Optional
-from config import USER_AGENT
-
-
 import os
+from typing import Any, Dict, List, Optional
+
+import requests
+
+from config import USER_AGENT
 
 # Получаем путь к текущему скрипту
 script_dir = os.path.dirname(os.path.abspath(__file__))
 path_to_json = os.path.join(script_dir, "../data/vacancy_hh.json")
 os.makedirs(os.path.dirname(path_to_json), exist_ok=True)
 
-class HeadHunterAPI():
+
+class HeadHunterAPI:
     """Класс для работы с API HeadHunter.
     Реализует методы подключения и получения вакансий"""
 
@@ -27,17 +28,23 @@ class HeadHunterAPI():
         """Устанавливает сессию и проверяет доступность API HeadHunter"""
         try:
             self.__session = requests.Session()
-            response = self.__session.get(url=self.__base_url_vacancies, headers=self.__headers)
+            response = self.__session.get(
+                url=self.__base_url_vacancies, headers=self.__headers
+            )
             response.raise_for_status()
             return response
         except requests.RequestException as e:
             raise ConnectionError(f"Ошибка подключения к API: {e}")
 
-    def get_vacancies(self, keyword: str, per_page: int = 20, area: int = 113) -> List[Dict[str, Any]]:
+    def get_vacancies(
+        self, keyword: str, per_page: int = 20, area: int = 113
+    ) -> List[Dict[str, Any]]:
         """Получает список вакансий по ключевому слову с параметрами пагинации и региона"""
         self._connect()
         params = {"text": keyword, "per_page": per_page, "area": area}
-        response = self.__session.get(url=self.__base_url_vacancies, params=params, headers=self.__headers)
+        response = self.__session.get(
+            url=self.__base_url_vacancies, params=params, headers=self.__headers
+        )
         if response.status_code != 200:
             raise ConnectionError(f"Ошибка получения вакансий: {response.status_code}")
         data = response.json()
@@ -53,38 +60,59 @@ class HeadHunterAPI():
         if not self.__session:
             self._connect()
         params = {"text": text, "per_page": per_page}
-        response = self.__session.get(url=self.__base_url_employers, params=params, headers=self.__headers)
+        response = self.__session.get(
+            url=self.__base_url_employers, params=params, headers=self.__headers
+        )
         response.raise_for_status()
         data = response.json()
         return data.get("items", [])
 
-# ДОП МЕТОД
+    # ДОП МЕТОД
     def loader_company(self, companies_input: str) -> List[Optional[str]]:
-        """Ищет работодателей по точному совпадению имени и возвращает их ID.(может работать независимо)"""
+        """
+        Ищет работодателей по точному совпадению имени (без учёта регистра) и возвращает их ID. Если не найдено — None.
+        """
+
         if not self.__session:
             self._connect()
 
-        company_names = [name.strip() for name in companies_input.split(',')]
+        # Разделяем ввод на отдельные названия компаний
+        company_names = [name.strip() for name in companies_input.split(",")]
         employer_ids = []
 
         for name_co in company_names:
-            params = {"text": name_co, "per_page": 15}  # Можно увеличить per_page при необходимости
+            name_co = name_co.strip()
+            if not name_co:
+                print("❌ Пустое название компании пропущено.")
+                employer_ids.append(None)
+                continue
+
+            params = {
+                "text": name_co,
+                "per_page": 50,
+            }  # Больше шансов найти нужного работодателя
+            # Запрос к API по названиям компаний
             try:
                 response = self.__session.get(
-                    url=self.__base_url_employers,
-                    params=params,
-                    headers=self.__headers
+                    url=self.__base_url_employers, params=params, headers=self.__headers
                 )
                 response.raise_for_status()
                 employers = response.json().get("items", [])
 
+                # Проверяем что полученное имя(name_in_api) и запрошенное(name_co) - это одно и тоже
                 employer_id = None
+                print(f"\n🔍 Результаты поиска для '{name_co}':")
                 for employer in employers:
-                    if employer.get("name") == name_co:
-                        employer_id = employer.get("id")
-                        print(f"✅ Найден ID '{employer_id}' для компании '{name_co}'")
-                        break  # Выходим из цикла после нахождения
+                    name_in_api = employer.get("name", "").strip()
+                    print(f" - {name_in_api}")
 
+                    # Полное совпадение названия, без учёта регистра
+                    if name_in_api.lower() == name_co.lower():
+                        employer_id = employer.get("id")
+                        print(
+                            f"✅ Найден ID '{employer_id}' для компании '{name_in_api}'"
+                        )
+                        break
 
                 if employer_id is None:
                     print(f"❌ Компания '{name_co}' не найдена.")
@@ -95,14 +123,14 @@ class HeadHunterAPI():
                 print(f"⚠️ Ошибка при поиске компании '{name_co}': {e}")
                 employer_ids.append(None)
 
-        # Запись найденных ID компаний(тестовая проверка)
-        with open(path_to_json, 'w', encoding='utf-8') as file:
+        # Сохраняем результаты для проверки
+        with open(path_to_json, "w", encoding="utf-8") as file:
             json.dump(employer_ids, file, ensure_ascii=False, indent=4)
 
         return employer_ids
 
     def _loader_company_vacancy(self, id_company: list) -> List[Dict]:
-        '''Нахождение вакансий от работодателей из списка вакансий по ID работодателя(берем инфу от loader_vacancy)'''
+        """Нахождение вакансий от работодателей из списка вакансий по ID работодателя(берем инфу от loader_vacancy)"""
         all_vacancies = []
 
         for employer_id in id_company:
@@ -112,24 +140,28 @@ class HeadHunterAPI():
             params = {"employer_id": employer_id, "per_page": 15}
 
             try:
-                response = self.__session.get(url = self.__base_url_vacancies,
-                                              headers=self.__headers,
-                                              params=params,
-                                              timeout=5)
+                response = self.__session.get(
+                    url=self.__base_url_vacancies,
+                    headers=self.__headers,
+                    params=params,
+                    timeout=5,
+                )
                 response.raise_for_status()
                 data = response.json()
 
                 vacancies = data.get("items", [])
                 if vacancies:
                     all_vacancies.extend(vacancies)
-                    print(f"Найдено {len(vacancies)} вакансий для работодателя {employer_id}")
+                    print(
+                        f"Найдено {len(vacancies)} вакансий для работодателя {employer_id}"
+                    )
                 else:
                     print(f"Нет вакансий для работодателя {employer_id}")
 
             except requests.RequestException as e:
                 print(f"Ошибка при загрузке вакансий для {employer_id}: {e}")
 
-        with open(path_to_json, 'w', encoding='utf-8') as file:
+        with open(path_to_json, "w", encoding="utf-8") as file:
             json.dump(all_vacancies, file, ensure_ascii=False, indent=4)
 
         return all_vacancies
@@ -141,10 +173,10 @@ class HeadHunterAPI():
         return self._loader_company_vacancy(employer_ids)
 
     # Шаг 1: Получаем ID компаний по названию
-    #company_ids = api.loader_company("Яндекс,Сбербанк")
+    # company_ids = api.loader_company("Яндекс,Сбербанк")
 
     # Шаг 2: По этим ID получаем вакансии
-    #vacancies = api.loader_company_vacancy(company_ids)
+    # vacancies = api.loader_company_vacancy(company_ids)
 
 
 if __name__ == "__main__":
@@ -154,12 +186,13 @@ if __name__ == "__main__":
         vacancies = api.get_vacancies(keyword=user_input, per_page=10)
         print(f"Получено вакансий: {len(vacancies)}")
         for vacancy in vacancies:
-            print(f"Вакансия: { vacancy.get('name')}, URL: { vacancy.get('alternate_url')}")
+            print(
+                f"Вакансия:{vacancy.get('name')}, URL:{vacancy.get('alternate_url')}"
+            )
     except Exception as e:
         print(f"Ошибка при получении вакансий: {e}")
 
-    print("\n" + "-"*40 + "\n")
-
+    print("\n" + "-" * 40 + "\n")
 
     try:
         employers = api.get_employers(text="мтс", per_page=10)

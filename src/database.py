@@ -1,13 +1,10 @@
 import psycopg2
+
 from config import config
 
 
-
-def create_database():
-    '''СОЗДАНИЕ БАЗЫ ДАННЫХ ЛОКАЛЬНО'''
-    # conn = psycopg2.connect(**config())
-    # conn.autocommit = True
-    # cur = conn.cursor()
+def create_database() -> None:
+    """СОЗДАНИЕ БАЗЫ ДАННЫХ ЛОКАЛЬНО"""
     # Получаем параметры подключения (включая dbname)
     params = config()
     db_name = params.get("dbname")  # Берём имя БД из конфига
@@ -18,15 +15,16 @@ def create_database():
     cur = conn.cursor()
     try:
         cur.execute(f"CREATE DATABASE {db_name}")
-        print(f'База данных {db_name} создана.')
-    except psycopg2.errors.DuplicateDatabase:               # Ошибка если БД создана
+        print(f"База данных {db_name} создана.")
+    except psycopg2.errors.DuplicateDatabase:  # Ошибка если БД создана
         print(f"База данных {db_name} уже существует.")
     finally:
         cur.close()
         conn.close()
 
-def create_tables():
-    '''СОЗДАНИЕ ТАБЛИЦ РАБОТОДАТЕЛЕЙ И ВАКАНСИЙ ЛОКАЛЬНО'''
+
+def create_tables() -> None:
+    """СОЗДАНИЕ ТАБЛИЦ РАБОТОДАТЕЛЕЙ И ВАКАНСИЙ ЛОКАЛЬНО"""
     commands = (
         """
         CREATE TABLE IF NOT EXISTS employers (
@@ -49,7 +47,7 @@ def create_tables():
                 REFERENCES employers (id_company)
                 ON DELETE CASCADE
         )
-        """
+        """,
     )
     conn = psycopg2.connect(**config())
     cur = conn.cursor()

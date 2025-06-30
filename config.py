@@ -1,8 +1,9 @@
 from configparser import ConfigParser
+from typing import Dict
 
 
 
-def config(filename="database.ini", section="postgresql"):
+def config(filename="database.ini", section="postgresql") -> Dict[str, str]:
     """
     Получаем параметры подключения к базе данных из файла конфигурации
     """

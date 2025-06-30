@@ -85,7 +85,9 @@ def user_interface(text):
     else:
         api = HeadHunterAPI()
         user_input = input('Введите от 1 или список интересующих компаний через запятую: ').lower()
-        api.find_vacancies_by_company_names(user_input)
+        result = api.find_vacancies_by_company_names(user_input)
+        insert_employers(result)
+        insert_vacancies(result)
 
 
 
