@@ -1,3 +1,4 @@
+
 import psycopg2
 from config import config
 from typing import Dict, Any, List
@@ -112,28 +113,3 @@ def insert_vacancies(vacancies: List[Dict[str, Any]]) -> None:
                     vac["alternate_url"],
                 ),
             )
-
-        except Exception as e:
-            print(f"Ошибка при обработке вакансии {vac.get('id')}: {e}")
-
-    conn.commit()
-    cur.close()
-    conn.close()
-
-
-def clear_employers_table() -> None:
-    conn = psycopg2.connect(**config())  # type: ignore
-    cur = conn.cursor()
-    cur.execute("TRUNCATE TABLE employers CASCADE")
-    conn.commit()
-    cur.close()
-    conn.close()
-
-
-def clear_vacancies_table() -> None:
-    conn = psycopg2.connect(**config())  # type: ignore
-    cur = conn.cursor()
-    cur.execute("TRUNCATE TABLE vacancies")
-    conn.commit()
-    cur.close()
-    conn.close()

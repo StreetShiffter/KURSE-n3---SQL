@@ -1,3 +1,4 @@
+
 # Сторонние библиотеки
 import psycopg2
 from config import config
@@ -36,7 +37,6 @@ def user_interface(text):
             print("5. Поиск вакансий по ключевому слову")
 
             choice = input("Введите номер действия: ")
-
             if choice == "1":
                 res = manager.get_companies_and_vacancies_count()
                 print("\n🏢 Компании и количество вакансий:")

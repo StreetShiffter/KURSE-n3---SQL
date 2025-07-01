@@ -1,3 +1,4 @@
+
 from typing import Any, List, Tuple  # Убрали неиспользуемый Optional
 
 import psycopg2
@@ -52,35 +53,3 @@ class DBManager:
             )
             result = cur.fetchone()
             return result[0] if result else None
-
-    def get_vacancies_with_higher_salary(self, avg_salary: float) -> List[Tuple[Any, ...]]:
-        """Получает вакансии с зарплатой выше средней"""
-        with self.conn.cursor() as cur:
-            cur.execute(
-                """
-                SELECT name, salary_from, salary_to, currency, url
-                FROM vacancies
-                WHERE (salary_from + salary_to)/2 > %s
-                  AND salary_from IS NOT NULL
-                  AND salary_to IS NOT NULL
-                """,
-                (avg_salary,),
-            )
-            return cur.fetchall()
-
-    def get_vacancies_with_keyword(self, keyword: str) -> List[Tuple[Any, ...]]:
-        """Находит вакансии по ключевому слову в названии вакансии"""
-        with self.conn.cursor() as cur:
-            cur.execute(
-                """
-                SELECT id, name, salary_from, salary_to, currency, url
-                FROM vacancies
-                WHERE name ILIKE %s
-                """,
-                (f"%{keyword}%",),
-            )
-            return cur.fetchall()
-
-    def close(self) -> None:
-        """Закрывает БД"""
-        self.conn.close()
