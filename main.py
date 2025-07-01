@@ -1,9 +1,3 @@
-
-# Сторонние библиотеки
-import psycopg2
-from config import config
-
-# Локальные модули
 from src.api_class import HeadHunterAPI
 from src.utils import insert_employers, insert_vacancies, clear_employers_table, clear_vacancies_table
 from src.database import create_database, create_tables

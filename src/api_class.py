@@ -28,17 +28,13 @@ class HeadHunterAPI:
         """Устанавливает сессию и проверяет доступность API HeadHunter"""
         try:
             self.__session = requests.Session()
-            response = self.__session.get(
-                url=self.__base_url_vacancies, headers=self.__headers
-            )
+            response = self.__session.get(url=self.__base_url_vacancies, headers=self.__headers)
             response.raise_for_status()
             return response
         except requests.RequestException as e:
             raise ConnectionError(f"Ошибка подключения к API: {e}")
 
-    def get_vacancies(
-        self, keyword: str, per_page: int = 20, area: int = 113
-    ) -> List[Dict[str, Any]]:
+    def get_vacancies(self, keyword: str, per_page: int = 20, area: int = 113) -> List[Dict[str, Any]]:
         """Получает список вакансий по ключевому слову с параметрами пагинации и региона"""
         self._connect()
         params = {"text": keyword, "per_page": per_page, "area": area}
@@ -109,9 +105,7 @@ class HeadHunterAPI:
                     # Полное совпадение названия, без учёта регистра
                     if name_in_api.lower() == name_co.lower():
                         employer_id = employer.get("id")
-                        print(
-                            f"✅ Найден ID '{employer_id}' для компании '{name_in_api}'"
-                        )
+                        print(f"✅ Найден ID '{employer_id}' для компании '{name_in_api}'")
                         break
 
                 if employer_id is None:
@@ -152,9 +146,7 @@ class HeadHunterAPI:
                 vacancies = data.get("items", [])
                 if vacancies:
                     all_vacancies.extend(vacancies)
-                    print(
-                        f"Найдено {len(vacancies)} вакансий для работодателя {employer_id}"
-                    )
+                    print(f"Найдено {len(vacancies)} вакансий для работодателя {employer_id}")
                 else:
                     print(f"Нет вакансий для работодателя {employer_id}")
 
@@ -186,9 +178,7 @@ if __name__ == "__main__":
         vacancies = api.get_vacancies(keyword=user_input, per_page=10)
         print(f"Получено вакансий: {len(vacancies)}")
         for vacancy in vacancies:
-            print(
-                f"Вакансия:{vacancy.get('name')}, URL:{vacancy.get('alternate_url')}"
-            )
+            print(f"Вакансия:{vacancy.get('name')}, URL:{vacancy.get('alternate_url')}")
     except Exception as e:
         print(f"Ошибка при получении вакансий: {e}")
 
