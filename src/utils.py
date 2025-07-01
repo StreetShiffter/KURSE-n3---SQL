@@ -1,6 +1,6 @@
 import psycopg2
 from config import config
-from typing import Dict, Any, Optional, List
+from typing import Dict, Any, List
 
 
 def process_vacancy(vacancy: Dict[str, Any]) -> Dict[str, Any]:
@@ -61,7 +61,7 @@ def insert_employers(vacancies: List[Dict[str, Any]]) -> None:
 
 def insert_vacancies(vacancies: List[Dict[str, Any]]) -> None:
     """Добавляет вакансии работодателей в таблицу vacancies на основе списка работодателей."""
-    conn = psycopg2.connect(**config()) # type: ignore
+    conn = psycopg2.connect(**config())  # type: ignore
     cur = conn.cursor()
 
     for vac in vacancies:  # Перебор каждого работодателя
@@ -122,7 +122,7 @@ def insert_vacancies(vacancies: List[Dict[str, Any]]) -> None:
 
 
 def clear_employers_table() -> None:
-    conn = psycopg2.connect(**config()) # type: ignore
+    conn = psycopg2.connect(**config())  # type: ignore
     cur = conn.cursor()
     cur.execute("TRUNCATE TABLE employers CASCADE")
     conn.commit()

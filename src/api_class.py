@@ -42,8 +42,8 @@ class HeadHunterAPI:
         """Получает список вакансий по ключевому слову с параметрами пагинации и региона"""
         self._connect()
         params = {"text": keyword, "per_page": per_page, "area": area}
-        response = self.__session.get(
-            url=self.__base_url_vacancies, params=params, headers=self.__headers
+        response = self.__session.get(  # type: ignore
+            url=self.__base_url_vacancies, params=params, headers=self.__headers  # type: ignore
         )
         if response.status_code != 200:
             raise ConnectionError(f"Ошибка получения вакансий: {response.status_code}")
@@ -60,8 +60,8 @@ class HeadHunterAPI:
         if not self.__session:
             self._connect()
         params = {"text": text, "per_page": per_page}
-        response = self.__session.get(
-            url=self.__base_url_employers, params=params, headers=self.__headers
+        response = self.__session.get(  # type: ignore
+            url=self.__base_url_employers, params=params, headers=self.__headers  # type: ignore
         )
         response.raise_for_status()
         data = response.json()
@@ -78,7 +78,7 @@ class HeadHunterAPI:
 
         # Разделяем ввод на отдельные названия компаний
         company_names = [name.strip() for name in companies_input.split(",")]
-        employer_ids = []
+        employer_ids: list[Any] = []
 
         for name_co in company_names:
             name_co = name_co.strip()
@@ -93,8 +93,8 @@ class HeadHunterAPI:
             }  # Больше шансов найти нужного работодателя
             # Запрос к API по названиям компаний
             try:
-                response = self.__session.get(
-                    url=self.__base_url_employers, params=params, headers=self.__headers
+                response = self.__session.get(  # type: ignore
+                    url=self.__base_url_employers, params=params, headers=self.__headers  # type: ignore
                 )
                 response.raise_for_status()
                 employers = response.json().get("items", [])
@@ -140,10 +140,10 @@ class HeadHunterAPI:
             params = {"employer_id": employer_id, "per_page": 15}
 
             try:
-                response = self.__session.get(
+                response = self.__session.get(  # type: ignore
                     url=self.__base_url_vacancies,
                     headers=self.__headers,
-                    params=params,
+                    params=params,  # type: ignore
                     timeout=5,
                 )
                 response.raise_for_status()

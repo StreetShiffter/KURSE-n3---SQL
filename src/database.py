@@ -10,7 +10,7 @@ def create_database() -> None:
     db_name = params.get("dbname")  # Берём имя БД из конфига
 
     # Подключаемся к Postgres без указания БД (используем 'postgres' или 'template1')
-    conn = psycopg2.connect(**{k: v for k, v in params.items() if k != "dbname"})
+    conn = psycopg2.connect(**{k: v for k, v in params.items() if k != "dbname"})  # type: ignore
     conn.autocommit = True
     cur = conn.cursor()
     try:
@@ -49,7 +49,7 @@ def create_tables() -> None:
         )
         """,
     )
-    conn = psycopg2.connect(**config())
+    conn = psycopg2.connect(**config())  # type: ignore
     cur = conn.cursor()
     try:
         for command in commands:
