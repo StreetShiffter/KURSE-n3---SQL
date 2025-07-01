@@ -1,0 +1,3977 @@
+[
+    {
+        "id": "122106052",
+        "premium": false,
+        "name": "Водитель-курьер (Омск)",
+        "department": {
+            "id": "ozonru-2180-boro",
+            "name": "Ozon Производство"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "68",
+            "name": "Омск",
+            "url": "https://api.hh.ru/areas/68"
+        },
+        "salary": {
+            "from": 201000,
+            "to": 378000,
+            "currency": "RUR",
+            "gross": true
+        },
+        "salary_range": {
+            "from": 201000,
+            "to": 378000,
+            "currency": "RUR",
+            "gross": true,
+            "mode": {
+                "id": "MONTH",
+                "name": "За месяц"
+            },
+            "frequency": null
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Омск",
+            "street": "улица Айвазовского",
+            "building": "31",
+            "lat": 54.997605,
+            "lng": 73.169469,
+            "description": null,
+            "raw": "Омск, улица Айвазовского, 31",
+            "metro": null,
+            "metro_stations": [],
+            "id": "15847291"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-26T15:26:32+0300",
+        "created_at": "2025-06-26T15:26:32+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122106052",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": true,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122106052?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122106052",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Вместительный грузовой личный автомобиль для осуществления доставок (от 8 паллет до 12 паллет). Водительские права категории В. Телефон на базе...",
+            "responsibility": "Доставлять товары интернет-магазина в пункты выдачи заказов на личном грузовом автомобиле. Забирать возвраты из пункта выдачи заказов. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "shift",
+            "name": "Сменный график"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [],
+        "working_hours": [
+            {
+                "id": "HOURS_12",
+                "name": "12 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "TWO_ON_TWO_OFF",
+                "name": "2/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "58",
+                "name": "Курьер"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "noExperience",
+            "name": "Нет опыта"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122265072",
+        "premium": false,
+        "name": "Графический дизайнер (digital)",
+        "department": {
+            "id": "ozonru-2180-express",
+            "name": "Ozon fresh"
+        },
+        "has_test": false,
+        "response_letter_required": true,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-07-01T16:19:58+0300",
+        "created_at": "2025-07-01T16:19:58+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122265072",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122265072?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122265072",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Профильное образование, опыт работы от 2 лет и релевантное digital-портфолио. Уверенное владение Illustrator, Photoshop, Figma и базовые навыки в...",
+            "responsibility": "Работать с digital-форматами: баннеры для сайта, рекламные платформы, спецпроекты. Создавать визуальный контент для социальных сетей в рамках бренд-гайдов. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": true,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "REMOTE",
+                "name": "Удалённо"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "34",
+                "name": "Дизайнер, художник"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122211776",
+        "premium": false,
+        "name": "Главный редактор, Ozon Банк",
+        "department": {
+            "id": "ozonru-2180-fintech",
+            "name": "Ozon Банк"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Пресненская набережная",
+            "building": "10",
+            "lat": 55.74723295660558,
+            "lng": 37.536558290665916,
+            "description": null,
+            "raw": "Москва, Пресненская набережная, 10",
+            "metro": {
+                "station_name": "Деловой центр",
+                "line_name": "Большая кольцевая линия",
+                "station_id": "97.603",
+                "line_id": "97",
+                "lat": 55.7491,
+                "lng": 37.5395
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Деловой центр",
+                    "line_name": "Большая кольцевая линия",
+                    "station_id": "97.603",
+                    "line_id": "97",
+                    "lat": 55.7491,
+                    "lng": 37.5395
+                },
+                {
+                    "station_name": "Деловой центр",
+                    "line_name": "Солнцевская",
+                    "station_id": "133.468",
+                    "line_id": "133",
+                    "lat": 55.7491,
+                    "lng": 37.5395
+                },
+                {
+                    "station_name": "Москва-Сити",
+                    "line_name": "Филевская",
+                    "station_id": "4.179",
+                    "line_id": "4",
+                    "lat": 55.748056,
+                    "lng": 37.532778
+                }
+            ],
+            "id": "1522426"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T15:07:20+0300",
+        "created_at": "2025-06-30T15:07:20+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122211776",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122211776?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122211776",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Работали главным редактором не менее двух лет. Готовы разбираться в банковских продуктах и сервисах. Ответственны, проактивны, умеете находить общий язык...",
+            "responsibility": "Управлять командой (6 человек): копирайтеры и UX-редакторы, отвечать за развитие каждого члена команды. Внедрять стандарты качества текстов и креатива..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "ON_SITE",
+                "name": "На месте работодателя"
+            },
+            {
+                "id": "HYBRID",
+                "name": "Гибрид"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "55",
+                "name": "Копирайтер, редактор, корректор"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122204174",
+        "premium": false,
+        "name": "Старший разработчик Frontend, Ozon Банк",
+        "department": {
+            "id": "ozonru-2180-fintech",
+            "name": "Ozon Банк"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Пресненская набережная",
+            "building": "10блокС",
+            "lat": 55.747074,
+            "lng": 37.536589,
+            "description": null,
+            "raw": "Москва, Пресненская набережная, 10блокС",
+            "metro": null,
+            "metro_stations": [],
+            "id": "1481074"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T13:19:59+0300",
+        "created_at": "2025-06-30T13:19:59+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122204174",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122204174?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122204174",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Опыт работы с JavaScript (ECMA 5/6) и понимание, как устроено прототипное наследование, зачем нужны замыкания и что такое контекст. ",
+            "responsibility": "Команда Банка Ozon создаёт и развивает сервисы для покупателей и продавцов. Мы строим банк как современный IT-продукт — с передовыми..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "ON_SITE",
+                "name": "На месте работодателя"
+            },
+            {
+                "id": "REMOTE",
+                "name": "Удалённо"
+            },
+            {
+                "id": "HYBRID",
+                "name": "Гибрид"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122249617",
+        "premium": false,
+        "name": "Специалист по работе с партнерами",
+        "department": {
+            "id": "ozonru-2180-boro",
+            "name": "Ozon Производство"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-07-01T12:40:32+0300",
+        "created_at": "2025-07-01T12:40:32+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122249617",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122249617?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122249617",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Среднее или высшее образование Уверенный пользователь ПК (Outlook, Excel). Быстрая, грамотная устная и письменная речь, знание норм делового общения. ",
+            "responsibility": "Осуществление квалифицированной поддержки партнерам. Решение поступивших от них проблем в установленные сроки в CRM. Взаимодействие с другими подразделениями компании в..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "REMOTE",
+                "name": "Удалённо"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_12",
+                "name": "12 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "TWO_ON_TWO_OFF",
+                "name": "2/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "40",
+                "name": "Другое"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122185173",
+        "premium": false,
+        "name": "Специалист по документообороту",
+        "department": {
+            "id": "ozonru-2180-express",
+            "name": "Ozon fresh"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "53",
+            "name": "Краснодар",
+            "url": "https://api.hh.ru/areas/53"
+        },
+        "salary": {
+            "from": 49500,
+            "to": null,
+            "currency": "RUR",
+            "gross": true
+        },
+        "salary_range": {
+            "from": 49500,
+            "to": null,
+            "currency": "RUR",
+            "gross": true,
+            "mode": {
+                "id": "MONTH",
+                "name": "За месяц"
+            },
+            "frequency": null
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Краснодар",
+            "street": "улица Стасова",
+            "building": "178",
+            "lat": 45.027438,
+            "lng": 39.044205,
+            "description": null,
+            "raw": "Краснодар, улица Стасова, 178",
+            "metro": null,
+            "metro_stations": [],
+            "id": "16026361"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T09:31:02+0300",
+        "created_at": "2025-06-30T09:31:02+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122185173",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": true,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122185173?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122185173",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Желателен опыт ведения документооборота. Уверенный пользователь ПК (в том числе Microsoft Excel). Ответственность, внимательность, коммуникабельность.",
+            "responsibility": "Проведение медосмотров за счет компании. Вам предстоит: Работа с первичной документацией. Кадровый документооборот: переводы, увольнения, отпуска. Ведение складского документооборота. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "33",
+                "name": "Делопроизводитель, архивариус"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "noExperience",
+            "name": "Нет опыта"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122248983",
+        "premium": false,
+        "name": "Старший менеджер по внешним коммуникациям",
+        "department": {
+            "id": "ozonru-2180-commerce",
+            "name": "Ozon Офис и Коммерция"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Пресненская набережная",
+            "building": null,
+            "lat": 55.746791,
+            "lng": 37.540991,
+            "description": null,
+            "raw": "Москва, Пресненская набережная",
+            "metro": {
+                "station_name": "Деловой центр",
+                "line_name": "Большая кольцевая линия",
+                "station_id": "97.603",
+                "line_id": "97",
+                "lat": 55.7491,
+                "lng": 37.5395
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Деловой центр",
+                    "line_name": "Большая кольцевая линия",
+                    "station_id": "97.603",
+                    "line_id": "97",
+                    "lat": 55.7491,
+                    "lng": 37.5395
+                },
+                {
+                    "station_name": "Деловой центр",
+                    "line_name": "Солнцевская",
+                    "station_id": "133.468",
+                    "line_id": "133",
+                    "lat": 55.7491,
+                    "lng": 37.5395
+                },
+                {
+                    "station_name": "Деловой центр (Выставочная)",
+                    "line_name": "Филевская",
+                    "station_id": "4.172",
+                    "line_id": "4",
+                    "lat": 55.750243,
+                    "lng": 37.542641
+                }
+            ],
+            "id": "5799073"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-07-01T12:30:40+0300",
+        "created_at": "2025-07-01T12:30:40+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122248983",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": true,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122248983?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122248983",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Опыт работы в PR больше 3 лет на стороне компании или агентства. — Можете оценить коммуникационные риски на этапе разработки продукта...",
+            "responsibility": "Вам предстоит интересно и просто рассказывать о запусках новых продуктов для покупателей, предвосхищать кризисы и умело их отражать, делать просветительские..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "ON_SITE",
+                "name": "На месте работодателя"
+            },
+            {
+                "id": "HYBRID",
+                "name": "Гибрид"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "2",
+                "name": "PR-менеджер"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "noExperience",
+            "name": "Нет опыта"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "120835797",
+        "premium": false,
+        "name": "Аналитик данных, Ozon Fresh",
+        "department": {
+            "id": "ozonru-2180-dev",
+            "name": "Ozon Информационные технологии"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-18T17:44:21+0300",
+        "created_at": "2025-06-18T17:44:21+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=120835797",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/120835797?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/120835797",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Опыт работы аналитиком данных от 2х лет. Развитое аналитическое мышление. Уверенное владение SQL на уровне написания сложных запросов. ",
+            "responsibility": "Разработка регулярной отчетности по ключевым показателям бизнеса. Подготовка и анализ A/B-тестов. Оптимизация существующих ETL-процессов. Различные ad-hoc..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "REMOTE",
+                "name": "Удалённо"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "156",
+                "name": "BI-аналитик, аналитик данных"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122242787",
+        "premium": false,
+        "name": "Специалист ПОД/ФТ (AML), Ozon Банк",
+        "department": {
+            "id": "ozonru-2180-fintech",
+            "name": "Ozon Банк"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-07-01T11:05:51+0300",
+        "created_at": "2025-07-01T11:05:51+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122242787",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122242787?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122242787",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Высшее образование (юридическое, экономическое, финансовое или смежное). Опыт работы в ПОД/ФТ (AML), банковском онлайн-контроле – от 1 года. ",
+            "responsibility": "Ежедневный мониторинг входящих и исходящих операций (сделок) клиентов Банка на предмет выявления операций (сделок), обладающих рисками ОД\\ФТ, в режиме..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "REMOTE",
+                "name": "Удалённо"
+            },
+            {
+                "id": "HYBRID",
+                "name": "Гибрид"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "158",
+                "name": "Комплаенс-менеджер"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122224663",
+        "premium": false,
+        "name": "Младший менеджер проектов",
+        "department": {
+            "id": "ozonru-2180-express",
+            "name": "Ozon fresh"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Краснопресненская набережная",
+            "building": "10",
+            "lat": 55.754775,
+            "lng": 37.563709,
+            "description": null,
+            "raw": "Москва, Краснопресненская набережная, 10",
+            "metro": {
+                "station_name": "Москва-Сити",
+                "line_name": "Филевская",
+                "station_id": "4.179",
+                "line_id": "4",
+                "lat": 55.748056,
+                "lng": 37.532778
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Москва-Сити",
+                    "line_name": "Филевская",
+                    "station_id": "4.179",
+                    "line_id": "4",
+                    "lat": 55.748056,
+                    "lng": 37.532778
+                },
+                {
+                    "station_name": "Улица 1905 года",
+                    "line_name": "Таганско-Краснопресненская",
+                    "station_id": "7.146",
+                    "line_id": "7",
+                    "lat": 55.763944,
+                    "lng": 37.562271
+                }
+            ],
+            "id": "5275271"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T21:36:00+0300",
+        "created_at": "2025-06-30T21:36:00+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122224663",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122224663?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122224663",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Опыт работы с договорами. Знание закупочных процедур. Отличное знание Excel (ВПР, сводные таблицы). Понимание основных принципов проектного управления, умение выстраивать...",
+            "responsibility": "Автоматизация и оптимизация процессов, связанных с закупочными процедурами. Кросс-функциональные взаимодействия с отделом строительства и реконструкции объектов, группа комплектации объектов..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "66",
+                "name": "Менеджер по закупкам"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122205207",
+        "premium": false,
+        "name": "Специалист чат-поддержки",
+        "department": {
+            "id": "ozonru-2180-fintech",
+            "name": "Ozon Банк"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "53",
+            "name": "Краснодар",
+            "url": "https://api.hh.ru/areas/53"
+        },
+        "salary": {
+            "from": null,
+            "to": 50000,
+            "currency": "RUR",
+            "gross": true
+        },
+        "salary_range": {
+            "from": null,
+            "to": 50000,
+            "currency": "RUR",
+            "gross": true,
+            "mode": {
+                "id": "MONTH",
+                "name": "За месяц"
+            },
+            "frequency": null
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T13:36:11+0300",
+        "created_at": "2025-06-30T13:36:11+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122205207",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122205207?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122205207",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Готов развиваться и получить опыт работы в письменной поддержке банка или ранее имел опыт работы с клиентами. Имеешь грамотную устную...",
+            "responsibility": "Консультировать клиентов в чатах по продуктам банка (без продаж). Помогать клиентам в решении возникших вопросов. Взаимодействовать с кросс-функциональными подразделениями..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "shift",
+            "name": "Сменный график"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [],
+        "working_hours": [
+            {
+                "id": "HOURS_12",
+                "name": "12 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "TWO_ON_TWO_OFF",
+                "name": "2/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "121",
+                "name": "Специалист технической поддержки"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "noExperience",
+            "name": "Нет опыта"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122224005",
+        "premium": false,
+        "name": "Менеджер продукта",
+        "department": {
+            "id": "ozonru-2180-commerce",
+            "name": "Ozon Офис и Коммерция"
+        },
+        "has_test": true,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Пресненская набережная",
+            "building": "10",
+            "lat": 55.74723295660558,
+            "lng": 37.536558290665916,
+            "description": null,
+            "raw": "Москва, Пресненская набережная, 10",
+            "metro": {
+                "station_name": "Деловой центр",
+                "line_name": "Большая кольцевая линия",
+                "station_id": "97.603",
+                "line_id": "97",
+                "lat": 55.7491,
+                "lng": 37.5395
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Деловой центр",
+                    "line_name": "Большая кольцевая линия",
+                    "station_id": "97.603",
+                    "line_id": "97",
+                    "lat": 55.7491,
+                    "lng": 37.5395
+                },
+                {
+                    "station_name": "Деловой центр",
+                    "line_name": "Солнцевская",
+                    "station_id": "133.468",
+                    "line_id": "133",
+                    "lat": 55.7491,
+                    "lng": 37.5395
+                },
+                {
+                    "station_name": "Москва-Сити",
+                    "line_name": "Филевская",
+                    "station_id": "4.179",
+                    "line_id": "4",
+                    "lat": 55.748056,
+                    "lng": 37.532778
+                }
+            ],
+            "id": "1522426"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T19:56:36+0300",
+        "created_at": "2025-06-30T19:56:36+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122224005",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122224005?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122224005",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "От 2х лет в роли продакта, желательно с CRM продуктами, автоматизацией или e-commerce. Системное и критическое мышление: умеешь...",
+            "responsibility": "Искать точки роста, выявлять узкие места и внедрять эффективные продуктовые решения. Настраивать и улучшать систему метрик продукта: от количества и..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "HYBRID",
+                "name": "Гибрид"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "73",
+                "name": "Менеджер продукта"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122206008",
+        "premium": false,
+        "name": "Аналитик данных, Маркетплейс, Отдел продуктовой аналитики",
+        "department": {
+            "id": "ozonru-2180-dev",
+            "name": "Ozon Информационные технологии"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T13:48:44+0300",
+        "created_at": "2025-06-30T13:48:44+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122206008",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122206008?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122206008",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Продуктовое мышление: понимание, как данные влияют на бизнес-решения. Продвинутый SQL: работа с миллионами строк, сложные JOIN, оконные функции, оптимизация...",
+            "responsibility": "Формирование дерева метрик для оценки эффективности внутренних сервисов. Проектирование ETL-процессов (скорость, качество, алерты). Разработка регулярной отчётности в BI-инструментах. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "ON_SITE",
+                "name": "На месте работодателя"
+            },
+            {
+                "id": "REMOTE",
+                "name": "Удалённо"
+            },
+            {
+                "id": "HYBRID",
+                "name": "Гибрид"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "156",
+                "name": "BI-аналитик, аналитик данных"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122207011",
+        "premium": false,
+        "name": "Специалист по логистике",
+        "department": {
+            "id": "ozonru-2180-boro",
+            "name": "Ozon Производство"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Пресненская набережная",
+            "building": "10",
+            "lat": 55.746593,
+            "lng": 37.53738,
+            "description": null,
+            "raw": "Москва, Пресненская набережная, 10",
+            "metro": {
+                "station_name": "Деловой центр",
+                "line_name": "Большая кольцевая линия",
+                "station_id": "97.603",
+                "line_id": "97",
+                "lat": 55.7491,
+                "lng": 37.5395
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Деловой центр",
+                    "line_name": "Большая кольцевая линия",
+                    "station_id": "97.603",
+                    "line_id": "97",
+                    "lat": 55.7491,
+                    "lng": 37.5395
+                },
+                {
+                    "station_name": "Деловой центр",
+                    "line_name": "Солнцевская",
+                    "station_id": "133.468",
+                    "line_id": "133",
+                    "lat": 55.7491,
+                    "lng": 37.5395
+                },
+                {
+                    "station_name": "Москва-Сити",
+                    "line_name": "Филевская",
+                    "station_id": "4.179",
+                    "line_id": "4",
+                    "lat": 55.748056,
+                    "lng": 37.532778
+                }
+            ],
+            "id": "5799088"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T14:04:34+0300",
+        "created_at": "2025-06-30T14:04:34+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122207011",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122207011?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122207011",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Средне-специальное или высшее образование. Опыт работы в логистике (желателен). Уверенный пользователь ПК, Excel (сводные таблицы, ВПР). Аналитический склад ума.",
+            "responsibility": "Взаимодействие с транспортными компаниями и складами на предмет своевременной подачи ТС на загрузку/выгрузку. Распределение ТС по маршрутам. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "shift",
+            "name": "Сменный график"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "ON_SITE",
+                "name": "На месте работодателя"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_12",
+                "name": "12 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "TWO_ON_TWO_OFF",
+                "name": "2/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "67",
+                "name": "Менеджер по логистике, менеджер по ВЭД"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122239589",
+        "premium": false,
+        "name": "Главный механик складского комплекса",
+        "department": {
+            "id": "ozonru-2180-boro",
+            "name": "Ozon Производство"
+        },
+        "has_test": true,
+        "response_letter_required": false,
+        "area": {
+            "id": "54",
+            "name": "Красноярск",
+            "url": "https://api.hh.ru/areas/54"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Красноярск",
+            "street": "Пограничников улица",
+            "building": "3д9и",
+            "lat": 56.103758,
+            "lng": 93.070763,
+            "description": null,
+            "raw": "Красноярск, Пограничников улица, 3д9и",
+            "metro": null,
+            "metro_stations": [],
+            "id": "12346899"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-07-01T10:23:45+0300",
+        "created_at": "2025-07-01T10:23:45+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122239589",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122239589?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122239589",
+        "relations": [],
+        "employer": {
+            "id": "2180",
+            "name": "Ozon",
+            "url": "https://api.hh.ru/employers/2180",
+            "alternate_url": "https://hh.ru/employer/2180",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1069622.png",
+                "90": "https://img.hhcdn.ru/employer-logo/5899117.png",
+                "240": "https://img.hhcdn.ru/employer-logo/5899118.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=2180",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.6",
+                "reviews_count": 9220
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Высшее или среднее техническое образование. Опыт работы главным механиком от 3х лет. 3 группа допуска по электробезопасности. ",
+            "responsibility": "Руководить службой электромехаников, контролировать работу подрядчиков. Обеспечивать бесперебойную работу и технически правильную эксплуатацию складской техники и оборудования (погрузчиков, штабелеров, перегрузочных..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "ON_SITE",
+                "name": "На месте работодателя"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "81",
+                "name": "Начальник склада"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "121781084",
+        "premium": false,
+        "name": "Middle QA-engineer [Дайлер, МТС Веб Сервисы]",
+        "department": {
+            "id": "mts-3776-inIT",
+            "name": "\"МТС\", Работа в IT"
+        },
+        "has_test": false,
+        "response_letter_required": true,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-18T18:06:07+0300",
+        "created_at": "2025-06-18T18:06:07+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121781084",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/121781084?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/121781084",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Аналогичный опыт работы от 2-х лет. Опыт тестирования мобильных приложений (iOS, Android). Опыт тестирования REST API (Postman, Swagger). ",
+            "responsibility": "Почему абоненту выгодно использовать \"Звонок из Мой МТС\" для звонков: Тестировать мобильное приложение (iOS, Android), back. Проводить различные виды тестирования..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "REMOTE",
+                "name": "Удалённо"
+            },
+            {
+                "id": "HYBRID",
+                "name": "Гибрид"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "OTHER",
+                "name": "Другое"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "124",
+                "name": "Тестировщик"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122188272",
+        "premium": false,
+        "name": "Middle Mobile QA Engineer [ИРТЕЯ]",
+        "department": {
+            "id": "mts-3776-inIT",
+            "name": "\"МТС\", Работа в IT"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Столярный переулок",
+            "building": "5с1",
+            "lat": 55.763543,
+            "lng": 37.566979,
+            "description": null,
+            "raw": "Москва, Столярный переулок, 5с1",
+            "metro": {
+                "station_name": "Улица 1905 года",
+                "line_name": "Таганско-Краснопресненская",
+                "station_id": "7.146",
+                "line_id": "7",
+                "lat": 55.763944,
+                "lng": 37.562271
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Улица 1905 года",
+                    "line_name": "Таганско-Краснопресненская",
+                    "station_id": "7.146",
+                    "line_id": "7",
+                    "lat": 55.763944,
+                    "lng": 37.562271
+                }
+            ],
+            "id": "6828664"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T10:11:58+0300",
+        "created_at": "2025-06-30T10:11:58+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122188272",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122188272?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122188272",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Высшее техническое/математическое образование. Релевантный опыт работы от 2 лет. Готовность работать в офисе с реальным оборудованием, дисциплина и обучаемость. ",
+            "responsibility": "Участвовать в процессах контроля качества на разных этапах жизненного цикла ПО. Разрабатывать средства автоматизации функционального и нагрузочного тестирования ПО. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "ON_SITE",
+                "name": "На месте работодателя"
+            },
+            {
+                "id": "HYBRID",
+                "name": "Гибрид"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "124",
+                "name": "Тестировщик"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "121942144",
+        "premium": false,
+        "name": "Менеджер проектов",
+        "department": {
+            "id": "mts-3776-manag",
+            "name": "\"МТС\", Управление продуктами"
+        },
+        "has_test": true,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-23T12:09:31+0300",
+        "created_at": "2025-06-23T12:09:31+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121942144",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/121942144?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/121942144",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Аналитические и коммуникативные навыки, умение работать в команде. Навыки ведения переговоров. Стрессоустойчивость и готовность работать в условиях высокой неопределенности и...",
+            "responsibility": "Управлять проектами по запуску продаж продуктов и услуг для корпоративных клиентов. Управлять людьми и процессами, чтобы достигать поставленных целей. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "REMOTE",
+                "name": "Удалённо"
+            },
+            {
+                "id": "HYBRID",
+                "name": "Гибрид"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "107",
+                "name": "Руководитель проектов"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122243819",
+        "premium": false,
+        "name": "Специалист по индивидуальному подбору персонала",
+        "department": {
+            "id": "mts-3776-staff",
+            "name": "\"МТС\", HR"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "26",
+            "name": "Воронеж",
+            "url": "https://api.hh.ru/areas/26"
+        },
+        "salary": {
+            "from": 70000,
+            "to": null,
+            "currency": "RUR",
+            "gross": true
+        },
+        "salary_range": {
+            "from": 70000,
+            "to": null,
+            "currency": "RUR",
+            "gross": true,
+            "mode": {
+                "id": "MONTH",
+                "name": "За месяц"
+            },
+            "frequency": {
+                "id": "TWICE_PER_MONTH",
+                "name": "Два раза в месяц"
+            }
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-07-01T11:19:50+0300",
+        "created_at": "2025-07-01T11:19:50+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122243819",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122243819?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122243819",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Опыт в подборе персонала. Высшее образование. Грамотность. Уверенное владение офисными программами.",
+            "responsibility": "Подбирать кандидатов под потребности заказчиков, используя активный поиск на job-сайтах, в соцсетях и других источниках. Проводить собеседования. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "HYBRID",
+                "name": "Гибрид"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "118",
+                "name": "Специалист по подбору персонала"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122061084",
+        "premium": false,
+        "name": "Руководитель направления взаимодействия с региональными органами власти",
+        "department": {
+            "id": "mts-3776-main",
+            "name": "«МТС» "
+        },
+        "has_test": false,
+        "response_letter_required": true,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Воронцовская улица",
+            "building": "5с2",
+            "lat": 55.740279,
+            "lng": 37.655787,
+            "description": null,
+            "raw": "Москва, Воронцовская улица, 5с2",
+            "metro": {
+                "station_name": "Марксистская",
+                "line_name": "Калининская",
+                "station_id": "8.78",
+                "line_id": "8",
+                "lat": 55.740746,
+                "lng": 37.65604
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Марксистская",
+                    "line_name": "Калининская",
+                    "station_id": "8.78",
+                    "line_id": "8",
+                    "lat": 55.740746,
+                    "lng": 37.65604
+                },
+                {
+                    "station_name": "Таганская",
+                    "line_name": "Кольцевая",
+                    "station_id": "5.76",
+                    "line_id": "5",
+                    "lat": 55.742396,
+                    "lng": 37.653334
+                },
+                {
+                    "station_name": "Таганская",
+                    "line_name": "Таганско-Краснопресненская",
+                    "station_id": "7.77",
+                    "line_id": "7",
+                    "lat": 55.739502,
+                    "lng": 37.653605
+                }
+            ],
+            "id": "7081806"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-25T15:27:19+0300",
+        "created_at": "2025-06-25T15:27:19+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122061084",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122061084?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122061084",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Высшее образование, приоритетно в направлении юриспруденции/гос.управлении. Опыт государственной гражданской службы от 3-х лет. Опыт участия в подготовке проектов...",
+            "responsibility": "Взаимодействовать с государственными органами власти. Подготавливать предложения для изменений нормативно-правовых актов и выстраивания стратегии взаимодействия с органами государственной власти. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "ON_SITE",
+                "name": "На месте работодателя"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "40",
+                "name": "Другое"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122193745",
+        "premium": false,
+        "name": "PR-менеджер",
+        "department": {
+            "id": "mts-3776-Marketi",
+            "name": "\"МТС\", Маркетинг и PR"
+        },
+        "has_test": true,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Воронцовская улица",
+            "building": "5с2",
+            "lat": 55.740279,
+            "lng": 37.655787,
+            "description": null,
+            "raw": "Москва, Воронцовская улица, 5с2",
+            "metro": {
+                "station_name": "Марксистская",
+                "line_name": "Калининская",
+                "station_id": "8.78",
+                "line_id": "8",
+                "lat": 55.740746,
+                "lng": 37.65604
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Марксистская",
+                    "line_name": "Калининская",
+                    "station_id": "8.78",
+                    "line_id": "8",
+                    "lat": 55.740746,
+                    "lng": 37.65604
+                },
+                {
+                    "station_name": "Таганская",
+                    "line_name": "Кольцевая",
+                    "station_id": "5.76",
+                    "line_id": "5",
+                    "lat": 55.742396,
+                    "lng": 37.653334
+                },
+                {
+                    "station_name": "Таганская",
+                    "line_name": "Таганско-Краснопресненская",
+                    "station_id": "7.77",
+                    "line_id": "7",
+                    "lat": 55.739502,
+                    "lng": 37.653605
+                }
+            ],
+            "id": "7081806"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T12:38:32+0300",
+        "created_at": "2025-06-30T12:38:32+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122193745",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122193745?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122193745",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Хорошее знание рынка региональных СМИ, блогеров (ВК, Телеграм, другие сети), дискуссионных площадок, лидеров мнений. Наличие контактов среди ЛПР по ключевым...",
+            "responsibility": "Заниматься разработкой и реализацией PR-кампаний по функциональным направлениям бизнеса в Калужской, Тульской, Рязанской, Ивановской, Владимирской областях. Организовывать PR-мероприятия..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "REMOTE",
+                "name": "Удалённо"
+            },
+            {
+                "id": "HYBRID",
+                "name": "Гибрид"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "2",
+                "name": "PR-менеджер"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "121955422",
+        "premium": false,
+        "name": "Разработчик на GoLang",
+        "department": {
+            "id": "mts-3776-technic",
+            "name": "\"МТС\", Технический блок"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-23T13:59:37+0300",
+        "created_at": "2025-06-23T13:59:37+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121955422",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/121955422?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/121955422",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Знания GoLang и опыт разработки от 1 года, ведение документации как в коде, так и на отдельном ресурсе. ",
+            "responsibility": "Разрабатывать веб-приложения на Go с использованием баз данных MySQL, Oracle, MongoDB. Участвовать в поддержке и развитии уже существующих внутренних..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "REMOTE",
+                "name": "Удалённо"
+            },
+            {
+                "id": "HYBRID",
+                "name": "Гибрид"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "96",
+                "name": "Программист, разработчик"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "121964092",
+        "premium": false,
+        "name": "Административный директор",
+        "department": {
+            "id": "mts-3776-main",
+            "name": "«МТС» "
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "78",
+            "name": "Самара",
+            "url": "https://api.hh.ru/areas/78"
+        },
+        "salary": {
+            "from": 150000,
+            "to": null,
+            "currency": "RUR",
+            "gross": true
+        },
+        "salary_range": {
+            "from": 150000,
+            "to": null,
+            "currency": "RUR",
+            "gross": true,
+            "mode": {
+                "id": "MONTH",
+                "name": "За месяц"
+            },
+            "frequency": {
+                "id": "TWICE_PER_MONTH",
+                "name": "Два раза в месяц"
+            }
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Самара",
+            "street": "Чернореченская улица",
+            "building": "61А",
+            "lat": 53.199541,
+            "lng": 50.146879,
+            "description": null,
+            "raw": "Самара, Чернореченская улица, 61А",
+            "metro": {
+                "station_name": "Московская",
+                "line_name": "Первая",
+                "station_id": "54.308",
+                "line_id": "54",
+                "lat": 53.203791,
+                "lng": 50.159832
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Московская",
+                    "line_name": "Первая",
+                    "station_id": "54.308",
+                    "line_id": "54",
+                    "lat": 53.203791,
+                    "lng": 50.159832
+                }
+            ],
+            "id": "1190540"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-23T16:30:26+0300",
+        "created_at": "2025-06-23T16:30:26+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121964092",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/121964092?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/121964092",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Высшее образование. Опыт управления административным отделом. Знание принципов работы основных отделов внутрихозяйственной деятельности предприятия. Опыт работы с бюджетом подразделения, сопровождения...",
+            "responsibility": "Осуществлять общее руководство административным подразделением филиала. Управлять сделками покупки/продажи и аренды объектов недвижимости. Организовывать работу по капитальному и текущему..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "ON_SITE",
+                "name": "На месте работодателя"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "76",
+                "name": "Менеджер/руководитель АХО"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122193192",
+        "premium": false,
+        "name": "Бизнес-аналитик",
+        "department": {
+            "id": "mts-3776-analytic",
+            "name": "\"МТС\", Аналитика"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "53",
+            "name": "Краснодар",
+            "url": "https://api.hh.ru/areas/53"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Краснодар",
+            "street": "Гимназическая улица",
+            "building": "55/1",
+            "lat": 45.025864,
+            "lng": 38.968306,
+            "description": null,
+            "raw": "Краснодар, Гимназическая улица, 55/1",
+            "metro": null,
+            "metro_stations": [],
+            "id": "416781"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T16:54:58+0300",
+        "created_at": "2025-06-30T16:54:58+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122193192",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122193192?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122193192",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Высшее образование. Знание стандартов языка SQL, DAX. Уверенное владение Excel (ВПР, сводные таблицы и другие функции). Желателен опыт работы в...",
+            "responsibility": "Обрабатывать и контролировать качество больших массивов данных. Поддерживать существующие и разрабатывать новые аналитические отчеты. Визуализировать данные в Power BI. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "ON_SITE",
+                "name": "На месте работодателя"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "150",
+                "name": "Бизнес-аналитик"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122260786",
+        "premium": false,
+        "name": "Менеджер по закупкам (МТС AdTech)",
+        "department": {
+            "id": "mts-3776-Marketi",
+            "name": "\"МТС\", Маркетинг и PR"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "Проектируемый проезд № 4062",
+            "building": "6с2",
+            "lat": 55.692962,
+            "lng": 37.65973,
+            "description": null,
+            "raw": "Москва, Проектируемый проезд № 4062, 6с2",
+            "metro": {
+                "station_name": "Технопарк",
+                "line_name": "Замоскворецкая",
+                "station_id": "2.512",
+                "line_id": "2",
+                "lat": 55.695,
+                "lng": 37.664167
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Технопарк",
+                    "line_name": "Замоскворецкая",
+                    "station_id": "2.512",
+                    "line_id": "2",
+                    "lat": 55.695,
+                    "lng": 37.664167
+                }
+            ],
+            "id": "2513704"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-07-01T15:30:56+0300",
+        "created_at": "2025-07-01T15:30:56+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122260786",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122260786?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122260786",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Высшее образование (экономическое, техническое, юридическое, иное). Опыт работы в закупках по направлению «digital-маркетинг» в крупной компании не менее трех...",
+            "responsibility": "Проводить закупочные процедуры по направлению «digital-маркетинг». Подготавливать и проводить закупочные процедуры. Проводить торги на тендерных площадках. Вести коммерческие переговоры. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "ON_SITE",
+                "name": "На месте работодателя"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "66",
+                "name": "Менеджер по закупкам"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122255003",
+        "premium": false,
+        "name": "Руководитель по продажам услуг фиксированного бизнеса",
+        "department": {
+            "id": "mts-3776-sale",
+            "name": "\"МТС\", Продажи и развитие"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "99",
+            "name": "Уфа",
+            "url": "https://api.hh.ru/areas/99"
+        },
+        "salary": {
+            "from": 190000,
+            "to": null,
+            "currency": "RUR",
+            "gross": true
+        },
+        "salary_range": {
+            "from": 190000,
+            "to": null,
+            "currency": "RUR",
+            "gross": true,
+            "mode": {
+                "id": "MONTH",
+                "name": "За месяц"
+            },
+            "frequency": {
+                "id": "TWICE_PER_MONTH",
+                "name": "Два раза в месяц"
+            }
+        },
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-07-01T15:39:55+0300",
+        "created_at": "2025-07-01T15:39:55+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122255003",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122255003?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122255003",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Успешный опыт управления продажами на массовом рынке и построения эффективной работы команды. Понимание каналов и инструментов продаж услуг фиксированной связи...",
+            "responsibility": "Управлять каналами продаж на массовом рынке. Разрабатывать и реализовывать стратегию развития фиксированного бизнеса на вверенной территории. Обеспечивать кросс-функциональное взаимодействие..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "106",
+                "name": "Руководитель отдела продаж"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between3And6",
+            "name": "От 3 до 6 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122180151",
+        "premium": false,
+        "name": "Менеджер по работе с коммерческими тендерами",
+        "department": {
+            "id": "mts-3776-main",
+            "name": "«МТС» "
+        },
+        "has_test": true,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T08:25:23+0300",
+        "created_at": "2025-06-30T08:25:23+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122180151",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122180151?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122180151",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Знание 223-ФЗ с актуальными изменениями. Опыт работы по данному направлению не менее 3 лет. Опыт личных продаж, навыки ведения...",
+            "responsibility": "Проводить мониторинг тендерных площадок на предмет поиска актуальных тендеров и конкурсов, соответствующих специфике компании. Проводить анализ тендерной документации, оценку потенциальных..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "119",
+                "name": "Специалист по тендерам"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122245232",
+        "premium": false,
+        "name": "AI-тренер / Тренер искусственного интеллекта («МВС ИИ»)",
+        "department": {
+            "id": "mts-3776-main",
+            "name": "«МТС» "
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "2",
+            "name": "Санкт-Петербург",
+            "url": "https://api.hh.ru/areas/2"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-07-01T11:36:11+0300",
+        "created_at": "2025-07-01T11:36:11+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122245232",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122245232?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122245232",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Опыт работы с языковыми моделями, такими как OpenAI ChatGPT. Уровень английского языка С1-С2. Умение грамотно и понятно...",
+            "responsibility": "Составление и редактирование текстов для ИИ. Анализ информации на достоверность и выявление сомнительных источников. Оценивание ответов ИИ."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "REMOTE",
+                "name": "Удалённо"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "138",
+                "name": "Фитнес-тренер, инструктор тренажерного зала"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "121330430",
+        "premium": false,
+        "name": "Middle System Analyst [Мой МТС, МТС Веб Сервисы]",
+        "department": {
+            "id": "mts-3776-inIT",
+            "name": "\"МТС\", Работа в IT"
+        },
+        "has_test": false,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": null,
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T09:44:32+0300",
+        "created_at": "2025-06-30T09:44:32+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=121330430",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/121330430?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/121330430",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Аналогичный коммерческий опыт работы от 2-х лет. Понимание принципов работы мобильных и веб приложений. Опыт интеграции систем и построения...",
+            "responsibility": "Составлять ТЗ. Ставить задачи разработчикам. Консультировать команды разработки. Прорабатывать интеграции и архитектурные решения. Собственную платформу MTS Ocean для получения ИТ..."
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "remote",
+            "name": "Удаленная работа"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "REMOTE",
+                "name": "Удалённо"
+            },
+            {
+                "id": "HYBRID",
+                "name": "Гибрид"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "OTHER",
+                "name": "Другое"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "10",
+                "name": "Аналитик"
+            }
+        ],
+        "accept_incomplete_resumes": false,
+        "experience": {
+            "id": "between1And3",
+            "name": "От 1 года до 3 лет"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    },
+    {
+        "id": "122184318",
+        "premium": false,
+        "name": "Кладовщик",
+        "department": {
+            "id": "mts-3776-purch",
+            "name": "\"МТС\", Закупки и логистика"
+        },
+        "has_test": true,
+        "response_letter_required": false,
+        "area": {
+            "id": "1",
+            "name": "Москва",
+            "url": "https://api.hh.ru/areas/1"
+        },
+        "salary": null,
+        "salary_range": null,
+        "type": {
+            "id": "open",
+            "name": "Открытая"
+        },
+        "address": {
+            "city": "Москва",
+            "street": "1-й Дорожный проезд",
+            "building": "3А",
+            "lat": 55.616089675833436,
+            "lng": 37.61589539384781,
+            "description": null,
+            "raw": "Москва, 1-й Дорожный проезд, 3А",
+            "metro": {
+                "station_name": "Пражская",
+                "line_name": "Серпуховско-Тимирязевская",
+                "station_id": "9.116",
+                "line_id": "9",
+                "lat": 55.610962,
+                "lng": 37.602386
+            },
+            "metro_stations": [
+                {
+                    "station_name": "Пражская",
+                    "line_name": "Серпуховско-Тимирязевская",
+                    "station_id": "9.116",
+                    "line_id": "9",
+                    "lat": 55.610962,
+                    "lng": 37.602386
+                },
+                {
+                    "station_name": "Южная",
+                    "line_name": "Серпуховско-Тимирязевская",
+                    "station_id": "9.163",
+                    "line_id": "9",
+                    "lat": 55.622436,
+                    "lng": 37.609047
+                }
+            ],
+            "id": "3633709"
+        },
+        "response_url": null,
+        "sort_point_distance": null,
+        "published_at": "2025-06-30T09:28:42+0300",
+        "created_at": "2025-06-30T09:28:42+0300",
+        "archived": false,
+        "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=122184318",
+        "branding": {
+            "type": "MAKEUP",
+            "tariff": null
+        },
+        "show_logo_in_search": true,
+        "show_contacts": false,
+        "insider_interview": null,
+        "url": "https://api.hh.ru/vacancies/122184318?host=hh.ru",
+        "alternate_url": "https://hh.ru/vacancy/122184318",
+        "relations": [],
+        "employer": {
+            "id": "3776",
+            "name": "МТС",
+            "url": "https://api.hh.ru/employers/3776",
+            "alternate_url": "https://hh.ru/employer/3776",
+            "logo_urls": {
+                "original": "https://img.hhcdn.ru/employer-logo-original/1389236.png",
+                "90": "https://img.hhcdn.ru/employer-logo/7176731.png",
+                "240": "https://img.hhcdn.ru/employer-logo/7176732.png"
+            },
+            "vacancies_url": "https://api.hh.ru/vacancies?employer_id=3776",
+            "accredited_it_employer": true,
+            "employer_rating": {
+                "total_rating": "4.1",
+                "reviews_count": 12045
+            },
+            "trusted": true
+        },
+        "snippet": {
+            "requirement": "Желательно знание складских процессов. Готовы рассмотреть начинающих специалистов.",
+            "responsibility": "Организовывать хранение товарно-материальных ценностей на складах. Анализировать остатки запасов получателей, формирующих потребности в получении товарно-материальных ценностей со складов. "
+        },
+        "contacts": null,
+        "schedule": {
+            "id": "fullDay",
+            "name": "Полный день"
+        },
+        "working_days": [],
+        "working_time_intervals": [],
+        "working_time_modes": [],
+        "accept_temporary": false,
+        "fly_in_fly_out_duration": [],
+        "work_format": [
+            {
+                "id": "ON_SITE",
+                "name": "На месте работодателя"
+            }
+        ],
+        "working_hours": [
+            {
+                "id": "HOURS_8",
+                "name": "8 часов"
+            }
+        ],
+        "work_schedule_by_days": [
+            {
+                "id": "FIVE_ON_TWO_OFF",
+                "name": "5/2"
+            }
+        ],
+        "night_shifts": false,
+        "professional_roles": [
+            {
+                "id": "52",
+                "name": "Кладовщик"
+            }
+        ],
+        "accept_incomplete_resumes": true,
+        "experience": {
+            "id": "noExperience",
+            "name": "Нет опыта"
+        },
+        "employment": {
+            "id": "full",
+            "name": "Полная занятость"
+        },
+        "employment_form": {
+            "id": "FULL",
+            "name": "Полная"
+        },
+        "internship": false,
+        "adv_response_url": null,
+        "is_adv_vacancy": false,
+        "adv_context": null
+    }
+]
