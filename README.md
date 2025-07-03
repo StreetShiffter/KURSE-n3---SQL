@@ -30,12 +30,6 @@
 
 ![Flake8](https://img.shields.io/badge/flake8-checked-blue.svg?logo=python&logoColor=blue)
 
-![Pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=orange)
-
-![Pytest HTML Report](https://img.shields.io/badge/Pytest_HTML_Report-FF6600?style=flat&logo=pytest&logoColor=black)
-
-![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen?logo=pytest)
-
 ![JSON](https://img.shields.io/badge/json-5E5C5C?logo=json&logoColor=red)
 
 КОМАНДЫ ДЛЯ УСТАНОВКИ ЗАВИСИМОСТЕЙ
@@ -49,6 +43,12 @@ pip install types-requests
 
 ⚠️ ВАЖНО ⚠️
 *Для проверки работы программы воспользуйтесь pgAdmin.* 
+
+Для работы с таблицами установите библиотеку *psycopg2* 
+```
+ poetry add psycopg2 
+```
+
 ### 🗂 Структура таблиц:
 
 #### Таблица `employers`:

@@ -90,7 +90,7 @@ def insert_vacancies(vacancies: List[Dict[str, Any]]) -> None:
 
 
 def clear_employers_table() -> None:
-    conn = psycopg2.connect(**config())  # type: ignore
+    conn = psycopg2.connect(**config())  
     cur = conn.cursor()
     cur.execute("TRUNCATE TABLE employers CASCADE")
     conn.commit()
