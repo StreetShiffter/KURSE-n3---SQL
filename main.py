@@ -20,61 +20,65 @@ def user_interface(text):
             # Шаг 3: сохраняем сами вакансии (теперь работодатели уже в БД)
             insert_vacancies(vacancies)
 
-            # Шаг 4: выводим информацию о вакансиях
-
+            # Шаг 4: запускаем цикл меню
             manager = DBManager()
-            print("\nВыберите действие:")
-            print("1. Вывести компании и количество вакансий")
-            print("2. Вывести все вакансии")
-            print("3. Средняя зарплата")
-            print("4. Вакансии с зарплатой выше средней")
-            print("5. Поиск вакансий по ключевому слову")
 
-            choice = input("Введите номер действия: ")
-            if choice == "1":
-                res = manager.get_companies_and_vacancies_count()
-                print("\n🏢 Компании и количество вакансий:")
-                for name, count in res:
-                    print(f"{name}: {count} вакансий")
-                    print("*"*50)
+            while True:
+                print("\nВыберите действие:")
+                print("1. Вывести компании и количество вакансий")
+                print("2. Вывести все вакансии")
+                print("3. Средняя зарплата")
+                print("4. Вакансии с зарплатой выше средней")
+                print("5. Поиск вакансий по ключевому слову")
+                print("6. Выход")
 
-            elif choice == "2":
-                res = manager.get_all_vacancies()
-                print("\n💼 Все вакансии:")
-                for item in res:
-                    print(item)
+                choice = input("Введите номер действия: ")
+
+                if choice == "1":
+                    res = manager.get_companies_and_vacancies_count()
+                    print("\n🏢 Компании и количество вакансий:")
+                    for name, count in res:
+                        print(f"{name}: {count} вакансий")
+                        print("*" * 50)
+
+                elif choice == "2":
+                    res = manager.get_all_vacancies()
+                    print("\n💼 Все вакансии:")
+                    for item in res:
+                        print(item)
+                        print("*" * 50)
+
+                elif choice == "3":
+                    avg = manager.get_avg_salary()
+                    print(f"\n💰 Средняя зарплата: {avg:.2f}")
                     print("*" * 50)
 
-            elif choice == "3":
-                avg = manager.get_avg_salary()
-                print(f"\n💰 Средняя зарплата: {avg:.2f}")
-                print("*" * 50)
+                elif choice == "4":
+                    avg = manager.get_avg_salary()
+                    res = manager.get_vacancies_with_higher_salary(avg)
+                    print(f"\n📈 Вакансии с зарплатой выше средней ({avg:.2f}):")
+                    for item in res:
+                        print(item)
+                        print("*" * 50)
 
-            elif choice == "4":
-                avg = manager.get_avg_salary()
-                res = manager.get_vacancies_with_higher_salary(avg)
-                print(f"\n📈 Вакансии с зарплатой выше средней ({avg:.2f}):")
-                for item in res:
-                    print(item)
-                    print("*" * 50)
+                elif choice == "5":
+                    word = input("Введите ключевое слово: ")
+                    res = manager.get_vacancies_with_keyword(word)
+                    print(f"\n🔎 Результаты поиска по '{word}':")
+                    for item in res:
+                        print(item)
+                        print("*" * 50)
 
-            elif choice == "5":
-                word = input("Введите ключевое слово: ")
-                res = manager.get_vacancies_with_keyword(word)
-                print(f"\n🔎 Результаты поиска по '{word}':")
-                for item in res:
-                    print(item)
-                    print("*" * 50)
+                elif choice == "6":
+                    print("🚪 Выход из программы.")
+                    manager.close()
+                    break
 
-            else:
-                print("❗ Неверный выбор")
-
+                else:
+                    print("❗ Неверный выбор. Пожалуйста, выберите число от 1 до 6.")
 
         except Exception as e:
             print(f"Ошибка при обработке вакансий: {e}")
-
-        finally:
-            manager.close()
 
     else:
         api = HeadHunterAPI()
